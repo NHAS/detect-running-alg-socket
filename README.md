@@ -11,7 +11,8 @@ sudo go run main.go
 go build
 sudo ./detect-running-alg-socket
 # Or 
-curl ...
+curl -L https://github.com/NHAS/detect-running-alg-socket/releases/download/v1.0.0/detect-running-alg-socket-linux-amd64 -o detect-running-alg-socket-linux-amd64 && chmod +x detect-running-alg-socket-linux-amd64
+sudo ./detect-running-alg-socket-linux-amd64
 ```
 
 
